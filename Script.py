@@ -169,7 +169,7 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     OWNER_INFO = """
-<b>⍟───[ ᴊɴɢᴏʜᴇʟʟ ]───⍟</b>
+<b>⍟───[ Badsha Studios ]───⍟</b>
     
 <b>• ꜰᴜʟʟ ɴᴀᴍᴇ :</b> AKD DUBBERS 
 <b>• ᴜꜱᴇʀɴᴀᴍᴇ : @kingBadsha323/b>
