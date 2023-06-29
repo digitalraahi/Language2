@@ -65,8 +65,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text="<b>ʜᴇʏ ᴅᴜᴅᴇ 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ᴏɴ ᴏᴜʀ <a href=https://t.me/filmy_fundas>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ​👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"t.me/Funda_More")]]))
+         text="<b>ʜᴇʏ ᴅᴜᴅᴇ 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ᴏɴ ᴏᴜʀ <a href=https://t.me/AKDverse>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ​👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"t.me/Movies_groupchat")]]))
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>👻 𝐏𝐌_𝐌𝐒𝐆 👻\n\n📝ᴍᴇssᴀɢᴇ​:-{content}\n\n👶🏻ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ:-{user}\n\n🃏ᴜꜱᴇʀ ɪᴅ:-{user_id}</b>"
@@ -762,7 +762,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                            ],[
-                              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/JNGohell")
+                              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/AKDverse")
                              ]
                             ]
                         )
@@ -834,7 +834,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/JNGohell")
+                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/AKDverse")
                  ]
                 ]
             )
@@ -1388,13 +1388,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "support_grp":
         buttons = [[
-            InlineKeyboardButton('🫵 sᴜʙsᴄʀɪʙᴇ​ 🫵', url='https://t.me/Funda_More')
+            InlineKeyboardButton('🫵 sᴜʙsᴄʀɪʙᴇ​ 🫵', url='https://youtube.com/@Akd-Anime-World')
             ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ​', url='https://t.me/filmy_fundas'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ​', url='https://t.me/Funda_More')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ​', url='https://t.me/Movies_groupchat'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ​', url='https://t.me/AKDverse')
             ],[      
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ​', url='https://t.me/filmy_fundas'),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/Funda_More')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ​', url='https://t.me/kingBadsha32322_Bot'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/AKDverse')
             ],[
             InlineKeyboardButton('✇ ʜᴏᴍᴇ ✇', callback_data="start")
         ]] 
@@ -1420,7 +1420,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "money_bot":
         buttons = [[
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/+4nzja42ELQwzOWVl')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/Movies_groupchat')
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⊝', callback_data='close_data')
@@ -1438,7 +1438,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/b061db529875775136658.jpg")
+            InputMediaPhoto("https://telegra.ph/file/c83e1490de8cedf8199b1.jpg")
         )
         await query.message.edit_text(
             text=script.EARN_TXT,
